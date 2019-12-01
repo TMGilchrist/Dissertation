@@ -1,0 +1,155 @@
+%% LaTeX template for BSc Computing for Games final year project dissertations
+%% by Edward Powley
+%% Games Academy, Falmouth University, UK
+
+%% Based on:
+%% bare_jrnl.tex
+%% V1.4b
+%% 2015/08/26
+%% by Michael Shell
+%% see http://www.michaelshell.org/
+%% for current contact information.
+%%
+%% This is a skeleton file demonstrating the use of IEEEtran.cls
+%% (requires IEEEtran.cls version 1.8b or later) with an IEEE
+%% journal paper.
+%%
+%% Support sites:
+%% http://www.michaelshell.org/tex/ieeetran/
+%% http://www.ctan.org/pkg/ieeetran
+%% and
+%% http://www.ieee.org/
+
+%%*************************************************************************
+%% Legal Notice:
+%% This code is offered as-is without any warranty either expressed or
+%% implied; without even the implied warranty of MERCHANTABILITY or
+%% FITNESS FOR A PARTICULAR PURPOSE! 
+%% User assumes all risk.
+%% In no event shall the IEEE or any contributor to this code be liable for
+%% any damages or losses, including, but not limited to, incidental,
+%% consequential, or any other damages, resulting from the use or misuse
+%% of any information contained here.
+%%
+%% All comments are the opinions of their respective authors and are not
+%% necessarily endorsed by the IEEE.
+%%
+%% This work is distributed under the LaTeX Project Public License (LPPL)
+%% ( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+%% distributed and modified. A copy of the LPPL, version 1.3, is included
+%% in the base LaTeX documentation of all distributions of LaTeX released
+%% 2003/12/01 or later.
+%% Retain all contribution notices and credits.
+%% ** Modified files should be clearly indicated as such, including  **
+%% ** renaming them and changing author support contact information. **
+%%*************************************************************************
+
+
+\documentclass[journal]{IEEEtran}
+
+\usepackage{graphicx}
+% Insert additional usepackage commands here
+
+\begin{document}
+%
+% paper title
+% Titles are generally capitalized except for words such as a, an, and, as,
+% at, but, by, for, in, nor, of, on, or, the, to and up, which are usually
+% not capitalized unless they are the first or last word of the title.
+% Linebreaks \\ can be used within to get better formatting as desired.
+% Do not put math or special symbols in the title.
+\title{Your title here}
+%
+%
+% author name
+\author{Thomas Gilchrist}
+
+% The paper headers -- please do not change these, but uncomment one of them as appropriate
+% Uncomment this one for COMP320
+\markboth{COMP320: Research Review and Proposal}{COMP320: Research Review and Proposal}
+% Uncomment this one for COMP360
+% \markboth{COMP360: Dissertation}{COMP360: Dissertation}
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+The abstract goes here.
+\end{abstract}
+
+\section{Introduction}
+
+\IEEEPARstart{V}{ideogames} as an educational tool have been the subject of much debate and research. The growing ubiquity of digital games, the appeal to children and the large industry sector makes games an obvious platform for education. Many video games based in history, while designed for entertainment often display educational potential, commonly including an encyclopaedia of historical information. Despite this, video games are not widespread as a tool for teaching History.
+
+I will be looking into attempts at using video games (as well as similar technology such as virtual reality experiences) to teach History to students, to first determine if it is a viable teaching method. The main body of my research will be collecting data on how often people playing a historical game actually make use of the historical encyclopaedia when one is provided and if it is beneficial to them. I intend to create a small game demo, depicting a historical scenario. The player will be informed of the availability of information about the events and time period, and the number of times the players look at this information will be recorded.
+
+A small quiz about the information provided in-game will be presented to the player before and after playing the game, to gauge players’ level of historical knowledge. I will compare this to the data on which players used the information provided, to analyse the educational benefits and limitations of including historical encyclopaedias in video games. I am currently unsure about how to minimise bias towards reading the information due to being given the quizzes. Not telling the participants about the second quiz could help to reduce this, but being presented with a quiz before playing might make them aware of the possibility.
+
+\section{Learning}
+
+\subsection{Active Learning}
+
+%%Definitions and idea of intrinsic motivation
+Active learning broadly refers to learning methodologies placing a significant emphasis on the learner's involvement and participation in the learning process. [try and find a couple of definitions] This can range from group discussions in a classroom, to self-directed learning through individual research or analysis. \cite{educationalAppsLearning} describes activities as requiring mental effort, rather than just physical actions, to qualify as active learning, reinforcing the importance of the learner's own motivation and engagement with the activity. Active learning has been shown to increase recall capability in both adults and children, \cite{educationalAppsLearning} and more active methods of note-taking - hand writing notes rather than using a laptop - have also been found to be more effective at helping learners remember information. \cite{notetakingOverLaptops}
+
+%%Challenge-based learning = higher innovation
+One form of active learning is a challenge, or problem, based approach. This method of teaching presents the learner with a challenge to overcome, and encourages them to innovate in order to overcome the challenge. Challenge-based learning may result in higher levels of innovation and greater adaptability when presented with problems compared to a traditional, lecture-based teaching method. \cite{comparisonOfChallengeLearning} In this style of teaching, the learner is more directly involved with the information they are being taught, as they have to analyse and adapt what they know to create solutions. This could suggest that challenge-based learning generates higher levels of self-motivation in learners, as they are required to engage with the learning content. [Has anyone proved this?]
+
+%%Possible downsides of active learning/PBL
+Despite these benefits, there are still significant difficulties surrounding this form of challenge-based learning. Research suggests that while challenge-based learning may improve the ability to adapt to new tasks, the actual knowledge base of learners may be lower than those taught with conventional lectures. \cite{PBLeffectsReview} This could in part be due to the difficulty of creating challenges for learners that are capable of communicating knowledge, requiring adaption and innovation and being of an appropriate difficulty. \cite{} [find where I read this!] (comparison of challenge based learning?) This difficulty is exacerbated due to the prevalence of conventional methods of learning in curriculums, meaning many teachers will have had little or no experience in this area.
+
+
+\subsection{Narrative}
+
+%%Acting out stories helps children's narrative comprehension.
+It is interesting to note that there has been significant research into children's "pretend play" which found that children who engage in narrative-based play activities - such as acting out a story - have improved narrative comprehension and greater recall capabilities when questioned on features of the narrative. \cite{pretendPlay} \cite{Original study} This could feasibly be leveraged by video games, as many games allow the player to "act out" a narrative through the course of playing, potentially improving the player's recall of educational information conveyed by the game.
+
+%%This research has some criticism, plus it's for young children - maybe not super relevant.
+However, some of the research in this area has been criticised for weak methodologies, which could have lead to inaccurate results. \cite{lillardPretendPlay} Additionally, this research was carried out with preschool children, a very specific and narrow age demographic, so these results cannot be reliably extrapolated regarding older subjects.  Further investigation into this topic is outside the scope of this literature review, although it remains an interesting area of exploration for educational games.
+
+
+\section{Educational Potential of Videogames}
+
+\subsection{Flow}
+Flow is a state of mind where a person becomes completely focused on an activity, losing sense of time and tiredness while fully engaging with the activity. Specifically, flow appears to emerge when a person is highly skilled at a challenging task, where they are competent enough to avoid anxiety over the task, but the task is hard enough to avoid boredom. \cite{flowHandbook}
+
+%%This paragraph probably needs to be rewritten. 
+
+As flow is suggested to be a key source of motivation, \cite{flowHandbook} it plays a large role in how long players continue to play video games. \cite{MaximiseEffectivness} discusses the elements of a game which gives the player a good experience, and suggests that Flow is one of them. However, this article also lists Player Engagement and Immersion alongside Flow, as individual, separate requirements while defining flow as "being `in the zone'". Although the authors point out that these factors may influence and interact with each other there is little exploration of how they do this. Despite a lengthy explanation of a study on Flow, the paper fails to delve deeper into the relationship between the aspects of User Experience that they outline. [cite mihaly] %%cite mihaly on relationship between challenge/skill and flow. And flow leading to immersion in task
+
+The level of focus and enjoyment that is associated with Flow is intrinsically motivating, which keeps a player involved in the game without resorting to external encouragement. \cite{flowHandbook} This self-motivation is incredibly valuable in education, as students do not require external regulation to keep them focused on their tasks while creativity and higher standards of learning are also associated with intrinsic motivation. \cite{flowAndMotivation}
+
+%%Talk about why flow is lacking in most educational games
+\subsection{Education vs Immersion}
+
+Despite their popularity, and the consensus on their potential as teaching tools, \cite{SomeExamplesOfThis} educational games in general have not been shown to be a highly successful method of teaching, certainly not more effective than traditional teaching methods. \cite{educationGamesEmpiricle} Furthermore, there is little analysis into what constitutes good game design when creating a game for educational purpose, with much focus being placed on potential applications of digital games in learning environments, rather than how to create them.\cite{SupporThisForLoveOfGod} However, it has been shown that one key factor when designing educational games is the direct integration of gameplay and learning, \cite{educationGamesEmpiricle} rather than the separation of education elements into minigames and puzzles only used for learning.
+
+Many educational games are designed for use in schools and other formal settings, so they are often fairly limited in scope and design, \cite{Something} strictly guiding the player towards the learning objectives. This can be seen in games such as: (Cite some educational games). This type of game often suffers from a lack of immersion since the players are aware of the nature of the game as a learning exercise, detracting from any fantasy the game attempts to create. Since immersion is an aspect of the user experience that directly contributes to flow, \cite{GameUXElements} this lack of immersion can cause the player to lose their sense of flow, or not to reach this state at all. 
+
+
+\subsection{Intrinsic Learning}
+
+
+Mention flow in video games = mental arousal = better active learning.
+
+\section{History}
+
+
+\section{Conclusion}
+The conclusion goes here.
+
+% references section
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+% Appendices
+
+\appendices
+\section{First appendix}
+Appendices are optional. Delete or comment out this part if you do not need them.
+
+% that's all folks
+\end{document}
